@@ -1,0 +1,68 @@
+*,
+::before,
+::after {
+	font-size: 14px;
+	padding: 0;
+	margin: 0;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: "microsoft yahei", sans-serif;
+}
+body{
+	padding: 0;
+	margin: 0;
+}
+input {
+	outline: none;
+	border: 0;
+	-webkit-appearance: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+ol,
+ul,
+li {
+	list-style: none;
+}
+
+.f_l {
+	float: left;
+}
+
+.f_r {
+	float: right;
+}
+
+.b_r {
+	border-right: 1px solid #EEEEEE;
+}
+
+.b_l {
+	border-left: 1px solid #EEEEEE;
+}
+
+.b_t {
+	border-top: 1px solid #EEEEEE;
+}
+
+.b_b {
+	border-bottom: 1px solid #EEEEEE;
+}
+
+.clearfix::before,
+.clearfix::after {
+	content: "";
+	line-height: 0;
+	height: 0;
+	display: table;
+	visibility: hidden;
+	clear: both;
+}
+
+.clearfix {
+	*zoom: 1;
+}
